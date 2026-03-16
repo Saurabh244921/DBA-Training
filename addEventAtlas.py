@@ -2,7 +2,7 @@ from asyncio import events
 from pymongo import MongoClient 
 
 # create the cluster/client connection
-client = MongoClient('mongodb+srv://saurabhkumar244921_db_user:Admin123@cluster0.11dgf59.mongodb.net/?appName=Cluster0')
+client = MongoClient('link')
 
 # create the database using the client cluster
 eventdb = client['eventdb']
