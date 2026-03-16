@@ -2,7 +2,7 @@ from pymongo import MongoClient
 from flask import Flask, render_template
 
 client = MongoClient(
-    "mongodb+srv://saurabhkumar244921_db_user:Admin123@cluster0.11dgf59.mongodb.net/?appName=Cluster0"
+    "monogodb url"
 )
 
 mydb = client["mydatabase"]
