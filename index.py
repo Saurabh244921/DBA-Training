@@ -2,7 +2,7 @@
 from pymongo import MongoClient
 
 client = MongoClient(
-    "mongodb+srv://saurabhkumar244921_db_user:Admin123@cluster0.11dgf59.mongodb.net/?appName=Cluster0"
+    "monogodb Url"
 )
 
 mydb = client["mydatabase"]
